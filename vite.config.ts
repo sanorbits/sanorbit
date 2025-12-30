@@ -17,3 +17,10 @@ export default defineConfig({
     },
   },
 })
+export default defineConfig({
+  base: '/<sanorbit>/',
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: { '@': path.resolve(__dirname, './src') },
+  },
+})
