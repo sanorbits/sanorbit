@@ -1,7 +1,7 @@
 import { Award, Briefcase, Cloud, Code, Database, Rocket, Target, TrendingUp } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
-import profilePhoto from 'figma:asset/d70c88e120c2db9094c20ccdbc9c51a38aa3963b.png';
+import profilePhoto from '@asset/d70c88e120c2db9094c20ccdbc9c51a38aa3963b.png';
 
 export function Home() {
   const experience = [
