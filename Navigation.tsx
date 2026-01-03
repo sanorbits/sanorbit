@@ -1,5 +1,5 @@
 import { Award, BookOpen, Home as HomeIcon, Lightbulb } from 'lucide-react';
-import sanorbitLogo from 'figma:asset/8c7d2fb9d73662e0e6fd4f0453c27c6aa632af3f.png';
+import sanorbitLogo from '@asset/8c7d2fb9d73662e0e6fd4f0453c27c6aa632af3f.png';
 
 interface NavigationProps {
   activeTab: string;
